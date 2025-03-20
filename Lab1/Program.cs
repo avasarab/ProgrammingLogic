@@ -19,6 +19,11 @@ using System;
       double myDoubleNum = 0.00D;
       Console.WriteLine(myDoubleNum);
       bool myBool = false;
-      Console.WriteLine(bool);
+      Console.WriteLine(myBool);
+
+      // Step 4
+      const string name = "Cuyahoga Community College";
+      Console.WriteLine(name);
+
   }
   }
