@@ -1,9 +1,11 @@
-﻿namespace Lab1;
+using System;
 
-class Program
-{
+  class Program
+  {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+      // Step 1
+ Console.WriteLine("Allison Vasarab Programming Logic");
+     }
     }
-}
+  }
