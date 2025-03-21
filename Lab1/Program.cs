@@ -1,7 +1,7 @@
 using System;
 
 namespace ProgrammingLogic
-  
+{
   class Program
   {
     static void Main(string[] args)
@@ -24,8 +24,9 @@ namespace ProgrammingLogic
       Console.WriteLine(myBool);
 
       // Step 4
-      const string name = "Cuyahoga Community College";
+      const string collegeName = "Cuyahoga Community College";
       Console.WriteLine(collegeName);
 
   }
   }
+}
