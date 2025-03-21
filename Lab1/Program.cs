@@ -1,5 +1,7 @@
 using System;
 
+namespace ProgrammingLogic
+  
   class Program
   {
     static void Main(string[] args)
@@ -23,7 +25,7 @@ using System;
 
       // Step 4
       const string name = "Cuyahoga Community College";
-      Console.WriteLine(name);
+      Console.WriteLine(collegeName);
 
   }
   }
