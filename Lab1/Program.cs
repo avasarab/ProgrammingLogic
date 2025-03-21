@@ -27,6 +27,6 @@ namespace ProgrammingLogic
       const string collegeName = "Cuyahoga Community College";
       Console.WriteLine(collegeName);
 
-  }
+    }
   }
 }
