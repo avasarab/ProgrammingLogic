@@ -1,16 +1,14 @@
-﻿using System.Globalization;
-
-namespace Lab4;
+﻿namespace Lab4;
 
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-
+    
 // Problem 1: Simple For Loop
 
-for (int x = 1; x <= 10; x++) 
+for (int x = 1; x <= 10; x++)
 {
   Console.WriteLine(x);
 }
@@ -26,7 +24,7 @@ if (i % 2 == 0)
 // Problem 3: While Loop Countdown
 
 int number = 5;
-while (number >= 1) 
+while (number >= 1)
 {
   Console.WriteLine(number);
   number--;
@@ -35,7 +33,7 @@ while (number >= 1)
 // Problem 4: Do/While User Input
 
 int numberAgain = 0;
-do 
+do
         {
             Console.Write("Enter a number greater than 100: ");
         } while (!int.TryParse(Console.ReadLine(), out numberAgain) || numberAgain <= 100);
@@ -45,7 +43,7 @@ do
 // Problem 5: While Loop – Multiples of 10 from 10 to 1000
 
 int whileLoop = 10;
-while (whileLoop <= 1000) 
+while (whileLoop <= 1000)
 {
   Console.WriteLine(whileLoop);
   whileLoop +=10;
@@ -53,9 +51,9 @@ while (whileLoop <= 1000)
 
 // Problem 6: Pattern Printer (Using Nested Loops)
 
-for (int triangleList = 1; triangleList <= 10; triangleList++) 
-{ 
-  for (int j = 1; j <= triangleList; j++) 
+for (int triangleList = 1; triangleList <= 10; triangleList++)
+{
+  for (int j = 1; j <= triangleList; j++)
   {
     Console.Write("*");
   }
@@ -63,4 +61,3 @@ for (int triangleList = 1; triangleList <= 10; triangleList++)
 }
     }
 }
-    
