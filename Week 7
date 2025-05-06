@@ -1,0 +1,62 @@
+using System;
+
+class Book
+{
+    private string title;
+    private string author;
+    public Book()
+    {
+        title = "Unknown Title";
+    }
+    public Book(string newTitle)
+    {
+        title = newTitle;
+    }
+    public Book(string newTitle, string newAuthor)
+    {
+        title = newTitle;
+        author = newAuthor;
+    }
+    public string GetTitle()
+    {
+        return title;
+    }
+    public void SetTitle(string newTitle)
+    {
+        title = newTitle;
+    }
+    public string GetAuthor()
+    {
+        return author;
+    }
+    public void SetAuthor(string newAuthor)
+    {
+        author = newAuthor;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+     
+        Book book1 = new Book();
+        Console.WriteLine("Title: " + book1.GetTitle());
+        
+        book1.SetTitle("C# Fundamentals");
+        Console.WriteLine("Updated Title: " + book1.GetTitle());
+
+        Book book2 = new Book("Advanced C#");
+        Console.WriteLine("Book 2 Title: " + book2.GetTitle());
+
+        Book book3 = new Book("Advanced C#", "John Doe");
+        Console.WriteLine("Book 3 Title: " + book3.GetTitle());
+        Console.WriteLine("Author: " + book3.GetAuthor());
+
+        Book book4 = new Book();
+        book4.SetTitle("Mastering C#");
+        book4.SetAuthor("Jane Smith");
+        Console.WriteLine("Book 4 Updated Title: " + book4.GetTitle());
+        Console.WriteLine("Book 4 Updated Author: " + book4.GetAuthor());
+    }
+}
